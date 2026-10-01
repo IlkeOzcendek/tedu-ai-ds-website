@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>Curiosity becomes a project. A project becomes shared value.</strong><br />
-  An animated, bilingual website for our TED University AI & Data Science leadership candidacy.
+  An animated bilingual website for our TED University AI & Data Science leadership candidacy.
 </p>
 
 <p align="center">
@@ -21,22 +21,22 @@
 
 ## The experience
 
-A presentation of our **2026–2027 candidate team**, the community we want to build, and how we plan to turn learning into shared projects. Forest green, lime, and teal carry through an interface designed to feel alive before you touch anything.
+A presentation of our **2026–2027 candidate team** and the community we want to build through shared projects. Forest green, lime and teal carry through an interface designed to feel alive before you touch anything.
 
-This is a candidacy presentation. Activities, visits, and collaborations describe our proposals; they are subject to planning and relevant approvals.
+This is a candidacy presentation. Activities, visits and collaborations describe our proposals; they are subject to planning and relevant approvals.
 
 <p align="center">
-  <img src="docs/site-preview.png" width="1200" alt="Desktop preview of the website’s opening in English, with its green visual identity and animated network." />
+  <img src="docs/site-preview.png" width="1200" alt="Desktop preview of the website’s opening in English with its green visual identity and animated network." />
 </p>
 
 | Detail | Inside the page |
 | :--- | :--- |
-| **Two languages** | Turkish and English, remembered preferences, and direct `?lang=tr` / `?lang=en` links. |
+| **Two languages** | Turkish and English, remembered preferences and direct `?lang=tr` / `?lang=en` links. |
 | **Motion with purpose** | A silent desktop video and a mobile Canvas scene that animates without video autoplay permission. |
 | **From idea to demo** | Four animated SVG scenes: bring an idea, find your team, test and build, share your work. |
-| **Made for touch** | Optional sideways swipes, previous/next controls, mobile bottom navigation, and a section menu. |
-| **A fuller story** | Learning paths, interdisciplinary ideas, a yearly roadmap, and ten candidate team members. |
-| **Considered interaction** | Keyboard navigation, visible focus, scroll reveals, and reduced-motion support. |
+| **Made for touch** | Optional sideways swipes, previous/next controls, mobile bottom navigation and a section menu. |
+| **A fuller story** | Learning paths, interdisciplinary ideas, a yearly roadmap and ten candidate team members. |
+| **Considered interaction** | Keyboard navigation, visible focus, scroll reveals and reduced-motion support. |
 
 ## Run locally
 
@@ -55,13 +55,13 @@ Open [Turkish](http://localhost:8000/?lang=tr) or [English](http://localhost:800
 Page content and paired `data-tr` / `data-en` translations live in `index.html`. Keep both versions updated when editing copy.
 
 ```text
-index.html             Content, translations, and SVG scenes
-app.js                 Language, tabs, filters, and core interactions
-interaction.js         Mobile navigation, touch, and scroll behavior
+index.html             Content, translations and SVG scenes
+app.js                 Language, tabs, filters and core interactions
+interaction.js         Mobile navigation, touch and scroll behavior
 hero-ambient.js         Mobile Canvas animation
 journey.js              Four-stage journey controls
-*.css                  Layout, visual details, and animation
-assets/                Emblem, video, poster, and local fonts
+*.css                  Layout, visual details and animation
+assets/                Emblem, video, poster and local fonts
 docs/                  README artwork and preview
 ```
 
@@ -69,11 +69,11 @@ For static hosting, publish this folder with `index.html` at the site root and p
 
 ## Design & development
 
-**Built with AI assistance using OpenAI Codex.** I supplied the candidacy content, directed the visual design, reviewed the results, and refined the experience through repeated feedback. This project openly documents an AI-assisted, “vibe-coded” workflow, with particular attention to motion, bilingual content, and the experience of opening the page from a QR code on a phone.
+**Built with AI assistance using OpenAI Codex.** I supplied the candidacy content, directed the visual design, reviewed the results and refined the experience through repeated feedback. This project grew through an AI-assisted “vibe-coded” workflow. The focus was on motion, bilingual content and an easy experience for visitors opening the page from a QR code on their phones.
 
 ## Türkçe
 
-TEDÜ Yapay Zekâ ve Veri Bilimi Topluluğu **2026–2027 yönetim adaylığımız** için hazırladığımız iki dilli tanıtım sitesi. Vizyonumuzu, faaliyet önerilerimizi ve aday ekibimizi; hareketli görseller, dört adımlı proje yolculuğu ve telefonda kolay gezinmeyle anlatıyor.
+TEDÜ Yapay Zekâ ve Veri Bilimi Topluluğu **2026–2027 yönetim adaylığımız** için hazırladığımız iki dilli tanıtım sitesi. Hareketli görseller ve dört adımlı proje yolculuğuyla vizyonumuzu, faaliyet önerilerimizi ve aday ekibimizi anlatıyor. Mobil gezinme sayesinde tüm bölümler telefondan kolayca keşfedilebiliyor.
 
 Tasarım yönünü ve içeriği ben belirledim; geliştirme sürecinde OpenAI Codex desteği kullandım. Yukarıdaki adımlarla bilgisayarında çalıştırabilir, TR/EN düğmeleriyle dil değiştirebilirsin.
 
