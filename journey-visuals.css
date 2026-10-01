@@ -1,0 +1,32 @@
+/* These sculptures are silent, code-native and self-contained. Paused outside the visible journey. */
+.journey-scene{display:block;width:100%;height:100%;overflow:visible;isolation:isolate}
+.journey-scene .scene-float,.journey-scene .scene-drift,.journey-scene .scene-layer,.journey-scene .scene-breathe,.journey-scene .scene-particles{transform-box:fill-box;transform-origin:center}
+.step-panels.in-view .journey-scene .scene-float{animation:journey-scene-float 7s ease-in-out infinite}
+.step-panels.in-view .journey-scene .scene-drift{animation:journey-scene-drift 9s ease-in-out infinite}
+.step-panels.in-view .journey-scene .scene-delay-1{animation-delay:-3s}
+.step-panels.in-view .journey-scene .scene-delay-2{animation-delay:-6s}
+.step-panels.in-view .journey-scene .scene-breathe{animation:journey-scene-breathe 6s ease-in-out infinite}
+.step-panels.in-view .journey-scene .scene-particles{animation:journey-scene-particles 8s ease-in-out infinite}
+.step-panels.in-view .journey-scene .scene-flow{stroke-dasharray:3 8;animation:journey-scene-flow 8s linear infinite}
+.step-panels.in-view .journey-scene .scene-layer-back{animation:journey-scene-layer-back 8s ease-in-out infinite}
+.step-panels.in-view .journey-scene .scene-layer-middle{animation:journey-scene-layer-middle 8s ease-in-out infinite}
+.step-panels.in-view .journey-scene .scene-layer-front{animation:journey-scene-layer-front 8s ease-in-out infinite}
+.step-panels.in-view .journey-scene .scene-scan{animation:journey-scene-scan 7s ease-in-out infinite}
+@keyframes journey-scene-float{0%,100%{transform:translateY(3px)}50%{transform:translateY(-7px)}}
+@keyframes journey-scene-drift{0%,100%{transform:translate(0,0) rotate(-2deg)}50%{transform:translate(2px,-9px) rotate(3deg)}}
+@keyframes journey-scene-breathe{0%,100%{opacity:.42;transform:scale(.94)}50%{opacity:.72;transform:scale(1.08)}}
+@keyframes journey-scene-particles{0%,100%{opacity:.65;transform:translateY(0)}50%{opacity:1;transform:translateY(-5px)}}
+@keyframes journey-scene-flow{to{stroke-dashoffset:-88}}
+@keyframes journey-scene-layer-back{0%,100%{transform:translateY(0)}48%,60%{transform:translateY(-3px)}}
+@keyframes journey-scene-layer-middle{0%,100%{transform:translateY(2px)}48%,60%{transform:translateY(-7px)}}
+@keyframes journey-scene-layer-front{0%,100%{transform:translateY(5px)}48%,60%{transform:translateY(-10px)}}
+@keyframes journey-scene-scan{0%,12%{transform:translateY(-20px);opacity:0}22%{opacity:.8}72%{transform:translateY(106px);opacity:.55}84%,100%{transform:translateY(118px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.step-panels.in-view .journey-scene *{animation:none!important}}
+
+/* Sculptural illustrations: quiet framing, luminous material, room to read. */
+.step-panel{grid-template-columns:minmax(280px,.95fr) minmax(0,1.05fr);gap:38px;padding:16px 34px 16px 16px;min-height:354px;background:#f0f8e9}.step-panel .step-illustration{display:block;min-height:320px;border-radius:14px;overflow:hidden;background:radial-gradient(ellipse at 52% 28%,#244531 0%,#102b20 44%,#081b15 100%);box-shadow:inset 0 0 0 1px #aee79b16,0 10px 30px #20452b12;isolation:isolate;color:#b6ff6e}.step-illustration:before{display:none}.step-illustration:after{content:'';position:absolute;inset:0;border:1px solid #d7ffc417;border-radius:inherit;pointer-events:none;box-shadow:inset 0 1px 0 #e0ffdc16}.step-illustration svg.journey-scene{display:block;position:absolute;inset:0;width:100%;height:100%;max-height:none;overflow:visible;filter:none}.step-copy{padding:12px 0}.step-panel .eyebrow{font-size:10px;letter-spacing:1.5px;color:#627b61}.step-panel h3{font-size:30px;line-height:1.23}.step-panel .step-description{font-size:16px;line-height:1.85}.step-outcome{margin-top:23px}.step-panel.is-changing .journey-scene{animation:scene-entrance .7s cubic-bezier(.2,.7,.2,1) both}@keyframes scene-entrance{from{opacity:0;transform:translateY(8px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:1050px){.step-panel{grid-template-columns:minmax(220px,.9fr) minmax(0,1.1fr);padding:12px 24px 12px 12px;gap:24px}.step-panel .step-illustration{min-height:300px}.step-panel h3{font-size:27px}}
+@media(max-width:700px){.step-panel{grid-template-columns:1fr;padding:0;gap:0;min-height:0;border-radius:18px}.step-panel .step-illustration{height:245px;min-height:245px;border-radius:17px 17px 0 0;box-shadow:inset 0 0 0 1px #aee79b16}.step-copy{padding:25px 26px 27px;min-height:275px}.step-panel h3{font-size:27px;max-width:360px}.step-panel .step-description{font-size:16px;line-height:1.8}.step-outcome{margin-top:20px}.step-outcome strong{font-size:13px}.step-panel .eyebrow{margin-bottom:12px}.step-panel .step-illustration:after{border-bottom:0}}
+@media(max-width:550px){.step-panel .step-illustration{height:218px;min-height:218px}.step-copy{padding:23px 22px 25px;min-height:268px}.step-panel h3{font-size:25px}.step-panel .step-description{font-size:15px}.step-panel .step-outcome{margin-top:18px}.step-panel .step-outcome strong{font-size:12px}.step-panel .eyebrow{font-size:9px;letter-spacing:1.3px}}
+@media(max-width:360px){.step-panel .step-illustration{height:195px;min-height:195px}.step-copy{padding:21px 18px 24px}.step-panel h3{font-size:23px}}
+@media(prefers-reduced-motion:reduce){.step-panel.is-changing .journey-scene{animation:none}}

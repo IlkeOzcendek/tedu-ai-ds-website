@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">TEDU AI &amp; DS — Think together. Create together.</title><desc id="desc">A forest-green canvas with a luminous floating crystal and orbiting fragments. 2026–2027 candidate team.</desc>
+<defs><radialGradient id="cover-glow"><stop stop-color="#29472a" stop-opacity=".5"/><stop offset="1" stop-color="#061710" stop-opacity="0"/></radialGradient><linearGradient id="cover-rule"><stop stop-color="#b6ff6e"/><stop offset="1" stop-color="#61e9c9" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="430" rx="24" fill="#081a13"/><ellipse cx="950" cy="210" rx="350" ry="250" fill="url(#cover-glow)"/>
+<path d="M60 367h670" stroke="url(#cover-rule)" stroke-opacity=".3"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="60" y="65" fill="#99b7a2" font-size="12" font-weight="700" letter-spacing="3">2026–2027 / CANDIDATE TEAM</text>
+<text x="58" y="139" fill="#f1faed" font-size="62" font-weight="700" letter-spacing="-3">TEDU <tspan fill="#b6ff6e">AI &amp; DS</tspan></text>
+<text x="60" y="218" fill="#e5f4e5" font-size="39" font-weight="600" letter-spacing="-1.1">Think together.</text><text x="60" y="268" fill="#b6ff6e" font-size="39" font-weight="600" letter-spacing="-1.1">Create together.</text>
+<text x="61" y="319" fill="#8ba99a" font-size="15">A shared vision. An idea in motion.</text>
+<text x="61" y="395" fill="#94b6a0" font-size="11" letter-spacing="2">HTML · CSS · JAVASCRIPT · CANVAS · SVG</text>
+<rect x="631" y="35" width="77" height="29" rx="14.5" fill="#b6ff6e12" stroke="#b6ff6e33"/><text x="652" y="54" fill="#c6e8b0" font-size="11" font-weight="700">TR / EN</text></g>
+<svg x="742" y="16" width="450" height="372" class="journey-scene journey-scene--1" viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+ 
+ <defs>
+  <radialGradient id="journey1-atmos"><stop stop-color="#80e6a2" stop-opacity=".16"/><stop offset="1" stop-color="#80e6a2" stop-opacity="0"/></radialGradient>
+  <radialGradient id="journey1-floor"><stop stop-color="#81dd9c" stop-opacity=".32"/><stop offset=".5" stop-color="#4eaa89" stop-opacity=".08"/><stop offset="1" stop-color="#61e9c9" stop-opacity="0"/></radialGradient>
+  <linearGradient id="journey1-lime" x1=".1" y1="0" x2=".8" y2="1"><stop stop-color="#f0ffd6"/><stop offset=".27" stop-color="#caff9b"/><stop offset=".65" stop-color="#87d755"/><stop offset="1" stop-color="#448741"/></linearGradient>
+  <linearGradient id="journey1-mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8fff0"/><stop offset=".3" stop-color="#85efcf"/><stop offset=".7" stop-color="#399780"/><stop offset="1" stop-color="#194d41"/></linearGradient>
+  <linearGradient id="journey1-glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e4ffe0" stop-opacity=".55"/><stop offset=".23" stop-color="#97ebc4" stop-opacity=".28"/><stop offset=".6" stop-color="#244c3b" stop-opacity=".8"/><stop offset="1" stop-color="#64d9b4" stop-opacity=".4"/></linearGradient>
+  <linearGradient id="journey1-dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#547e5b"/><stop offset=".28" stop-color="#2b5743"/><stop offset="1" stop-color="#0b2a21"/></linearGradient>
+  <linearGradient id="journey1-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f1ffe0" stop-opacity=".95"/><stop offset=".4" stop-color="#aeebba" stop-opacity=".7"/><stop offset="1" stop-color="#6ee4bd" stop-opacity=".1"/></linearGradient>
+  <linearGradient id="journey1-ribbon" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#61e9c9" stop-opacity=".05"/><stop offset=".55" stop-color="#61e9c9" stop-opacity=".75"/><stop offset="1" stop-color="#efffc8"/></linearGradient>
+  <radialGradient id="journey1-core"><stop stop-color="#ffffe8"/><stop offset=".18" stop-color="#e6ffb6"/><stop offset=".65" stop-color="#b6ff6e"/><stop offset="1" stop-color="#68b74e"/></radialGradient>
+  <radialGradient id="journey1-halo"><stop stop-color="#b6ff6e" stop-opacity=".55"/><stop offset="1" stop-color="#b6ff6e" stop-opacity="0"/></radialGradient>
+  <filter id="journey1-soft"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="journey1-shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="12" stdDeviation="9" flood-color="#00170d" flood-opacity=".42"/></filter>
+  <clipPath id="journey1-bounds"><rect width="420" height="320" rx="24"/></clipPath>
+ </defs>
+ <g clip-path="url(#journey1-bounds)">
+  <ellipse cx="210" cy="136" rx="185" ry="132" fill="url(#journey1-atmos)"/>
+  <ellipse cx="210" cy="267" rx="162" ry="37" fill="url(#journey1-floor)"/>
+  <g fill="none" stroke="#79b794" stroke-width=".55" opacity=".12"><path d="M-210 298L210 154"/><path d="M-140 298L210 154"/><path d="M-70 298L210 154"/><path d="M0 298L210 154"/><path d="M70 298L210 154"/><path d="M140 298L210 154"/><path d="M210 298L210 154"/><path d="M280 298L210 154"/><path d="M350 298L210 154"/><path d="M420 298L210 154"/><path d="M490 298L210 154"/><path d="M560 298L210 154"/><path d="M630 298L210 154"/><path d="M16 220H404"/><path d="M6 235H414"/><path d="M-4 254H424"/><path d="M-14 278H434"/></g>
+  
+ <path d="M91 170C35 95 242 51 322 114C340 130 329 147 308 159" fill="none" stroke="url(#journey1-ribbon)" stroke-width="1" opacity=".65"/>
+ <g class="scene-drift scene-delay-2">
+  <path d="M116 100L142 86L149 109L128 117Z" fill="url(#journey1-glass)" stroke="url(#journey1-edge)" stroke-width=".8"/>
+  <path d="M116 100L134 101L128 117M134 101L142 86" fill="none" stroke="#c1f1d0" stroke-width=".6" opacity=".7"/>
+  <path d="M283 73L312 95L285 109L277 88Z" fill="url(#journey1-mint)" opacity=".9"/>
+  <path d="M283 73L294 94L312 95M294 94L285 109" fill="none" stroke="#e7ffe5" stroke-width=".75" opacity=".6"/>
+ </g>
+ <ellipse class="scene-breathe" cx="210" cy="148" rx="72" ry="78" fill="url(#journey1-halo)" opacity=".42"/>
+ <g class="scene-float" filter="url(#journey1-shadow)">
+  <path d="M204 57L250 81L270 134L242 201L206 222L162 192L144 130L168 81Z" fill="url(#journey1-glass)" stroke="url(#journey1-edge)" stroke-width="1"/>
+  <path d="M204 57L204 110L168 81Z" fill="#e5ffc4" opacity=".24"/>
+  <path d="M204 57L250 81L237 114L204 110Z" fill="url(#journey1-lime)" opacity=".68"/>
+  <path d="M250 81L270 134L237 114Z" fill="#baff85" opacity=".22"/>
+  <path d="M270 134L242 201L234 160Z" fill="url(#journey1-mint)" opacity=".54"/>
+  <path d="M242 201L206 222L199 164L234 160Z" fill="url(#journey1-dark)" opacity=".83"/>
+  <path d="M206 222L162 192L176 151L199 164Z" fill="url(#journey1-mint)" opacity=".46"/>
+  <path d="M162 192L144 130L176 151Z" fill="#a4f58d" opacity=".19"/>
+  <path d="M144 130L168 81L177 115L176 151Z" fill="url(#journey1-lime)" opacity=".54"/>
+  <path d="M168 81L204 110L177 115Z" fill="#d8ffb5" opacity=".3"/>
+  <circle cx="207" cy="140" r="40" fill="url(#journey1-halo)"/>
+  <circle cx="207" cy="140" r="17" fill="url(#journey1-core)"/>
+  <circle cx="207" cy="140" r="27" fill="none" stroke="#dbffb1" stroke-width=".7" opacity=".7"/>
+  <path d="M177 115L204 110L237 114L234 160L199 164L176 151Z" fill="none" stroke="#e8ffcf" stroke-width=".65" opacity=".65"/>
+  <path d="M204 110L207 140L234 160M177 115L207 140L199 164M237 114L207 140L176 151" fill="none" stroke="#d6ffc6" stroke-width=".65" opacity=".38"/>
+  <path d="M162 123L170 91L190 75" fill="none" stroke="#f1ffe0" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+ </g>
+ <path d="M308 159C265 193 132 211 91 170" fill="none" stroke="url(#journey1-ribbon)" stroke-width="1.5"/>
+ <g class="scene-drift scene-delay-1">
+  <path d="M112 204L126 190L142 211L120 223Z" fill="url(#journey1-mint)" stroke="url(#journey1-edge)" stroke-width=".7"/>
+  <path d="M292 201L309 185L329 213L301 227Z" fill="url(#journey1-glass)" stroke="url(#journey1-edge)" stroke-width=".8"/>
+  <path d="M309 185L308 210L329 213M308 210L301 227" fill="none" stroke="#d5ffd2" stroke-width=".8" opacity=".7"/>
+ </g>
+ <g class="scene-particles">
+  <circle cx="85" cy="157" r="4" fill="#b6ff6e"/><circle cx="329" cy="130" r="3.5" fill="#94f6d3"/>
+  <circle cx="256" cy="47" r="2" fill="#dfffc1"/><circle cx="175" cy="244" r="2" fill="#b6ff6e"/>
+ </g>
+
+ </g>
+</svg><style>.scene-float{transform-box:fill-box;transform-origin:center;animation:float 7s ease-in-out infinite}.scene-drift{transform-box:fill-box;transform-origin:center;animation:drift 9s ease-in-out infinite}.scene-breathe{transform-box:fill-box;transform-origin:center;animation:breathe 6s ease-in-out infinite}.scene-delay-1{animation-delay:-3s}.scene-delay-2{animation-delay:-6s}@keyframes float{0%,100%{transform:translateY(3px)}50%{transform:translateY(-7px)}}@keyframes drift{0%,100%{transform:rotate(-2deg)}50%{transform:translateY(-7px) rotate(3deg)}}@keyframes breathe{0%,100%{opacity:.4;transform:scale(.94)}50%{opacity:.8;transform:scale(1.07)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style></svg>
