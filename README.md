@@ -8,6 +8,8 @@
 </p>
 
 <p align="center">
+  <a href="https://ilkeozcendek.github.io/tedu-ai-ds-website/?lang=tr"><strong>Visit website · TR</strong></a> &nbsp; · &nbsp;
+  <a href="https://ilkeozcendek.github.io/tedu-ai-ds-website/?lang=en"><strong>EN</strong></a> &nbsp; · &nbsp;
   <a href="#the-experience">Explore the project</a> &nbsp; · &nbsp;
   <a href="#run-locally">Run locally</a> &nbsp; · &nbsp;
   <a href="#türkçe">Türkçe</a>
